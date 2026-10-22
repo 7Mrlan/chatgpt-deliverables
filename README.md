@@ -1,15 +1,15 @@
-# ChatGPT Deliverables · 交付物仓库
+# ChatGPT Deliverables · 交付归档
 
-这里是 ChatGPT 为我准备的设计素材、程序资源、文档与其他成品的统一交付仓库。
+集中归档 ChatGPT 完成的设计、代码、文档及其他成果。按 `projects/<项目>/<交付类型>/<版本>/` 管理。
 
-## 已交付
+## 星阅 · Android 阅读 App Logo
 
-### 星阅 · Android 阅读 App 图标 / v1 原版蓝色
+- **[v1.1 高清矢量版（推荐）](projects/xingyue/android-icon/v1.1-hires/README.md)** — PNG 从 SVG 路径重新渲染，清晰度适用于 Android；保留蓝色造型，属于矢量复刻稿。
+- [v1 原始设计参考版](projects/xingyue/android-icon/v1-original-blue/README.md) — 旧展示图截图裁取版，仅供对照，不建议当作高清源图。
 
-- [直接下载完整 ZIP](projects/xingyue/android-icon/v1-original-blue/XingYue-Android-Delivery.zip)
-- [项目目录和使用说明](projects/xingyue/android-icon/v1-original-blue/README.md)
-- 原版高清 PNG、SVG 复刻、Android adaptive icon 与多分辨率资源均在 ZIP 内。
+## 交付约定
 
-归档规则：`projects/<项目>/<类型>/<版本>/`；不覆盖已确认版本，之后的交付优先按此规则保存。
-
-> **注意：当前仓库为 Public。** 请勿上传个人隐私、密码、商业秘密或公司内部源代码；未来涉及这些资料时请先转为 Private。
+1. 不覆盖已确认的旧版本，新版本单独归档。
+2. 提供可编辑 SVG、高清 PNG、安装说明与 ZIP。
+3. 不提交密码、API 密钥、机密资料或未经授权的商业文件。
+4. **当前仓库是公开仓库（Public）**，请注意后续文件的隐私。

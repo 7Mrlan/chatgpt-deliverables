@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 450 450" role="img" aria-label="星阅品牌原版蓝色 Logo 的高清矢量复刻">
+<defs>
+ <linearGradient id="pageMain" x1="87" y1="324" x2="337" y2="95" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#0751E7"/>
+  <stop offset="0.28" stop-color="#1364EF"/>
+  <stop offset="0.60" stop-color="#599BF9"/>
+  <stop offset="0.83" stop-color="#A9CBFE"/>
+  <stop offset="1" stop-color="#D6E7FF"/>
+ </linearGradient>
+ <linearGradient id="pageFold" x1="159" y1="397" x2="366" y2="235" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#07339F"/>
+  <stop offset="0.14" stop-color="#0A47C2"/>
+  <stop offset="0.38" stop-color="#155EE1"/>
+  <stop offset="0.70" stop-color="#3D88F4"/>
+  <stop offset="1" stop-color="#92BDFB"/>
+ </linearGradient>
+ <radialGradient id="creaseDepth" cx="156" cy="339" r="169" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#062996" stop-opacity=".24"/>
+  <stop offset=".60" stop-color="#0B44C9" stop-opacity=".03"/>
+  <stop offset="1" stop-color="#1D56D1" stop-opacity="0"/>
+ </radialGradient>
+ <linearGradient id="tileBase" x1="0" y1="0" x2="420" y2="450" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F9FF"/>
+ </linearGradient>
+ <linearGradient id="edgeLight" x1="184" y1="330" x2="311" y2="250" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity=".55"/>
+  <stop offset=".35" stop-color="#FFFFFF" stop-opacity=".14"/>
+  <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+ </linearGradient>
+ <clipPath id="foldClip"><path d="M 139 392 C 138 353 159 317 190 286 C 219 257 254 242 288 237 C 328 230 362 239 398 256 C 408 261 380 270 361 282 C 337 299 321 326 290 345 C 259 361 216 363 181 373 C 158 380 143 392 139 392 Z"/></clipPath>
+</defs>
+<rect width="450" height="450" rx="93" fill="url(#tileBase)"/><path d="M 139 392 C 110 363 79 304 67 262 C 51 208 62 168 100 142 C 137 119 193 110 251 98 C 298 87 326 79 343 71 C 354 66 353 80 350 96 C 344 151 327 199 288 233 C 250 268 213 278 181 317 C 152 352 138 379 139 392 Z" fill="url(#pageMain)"/>
+<path d="M 139 392 C 138 353 159 317 190 286 C 219 257 254 242 288 237 C 328 230 362 239 398 256 C 408 261 380 270 361 282 C 337 299 321 326 290 345 C 259 361 216 363 181 373 C 158 380 143 392 139 392 Z" fill="url(#pageFold)"/>
+<path d="M 139 392 C 138 353 159 317 190 286 C 219 257 254 242 288 237 C 328 230 362 239 398 256 C 408 261 380 270 361 282 C 337 299 321 326 290 345 C 259 361 216 363 181 373 C 158 380 143 392 139 392 Z" fill="url(#creaseDepth)"/>
+<!-- Interior crease: fine, shallow contact light instead of neon glow. -->
+<path d="M 139 392 C 137 342 175 303 215 273 C 237 259 263 247 288 237" fill="none" stroke="url(#edgeLight)" stroke-width="2.5" stroke-linecap="round" clip-path="url(#foldClip)"/>
+</svg>
